@@ -73,8 +73,20 @@ python bot.py
 
 The bot will:
 - Initialize the Pipecat pipeline with deepfake detection
+- Start an **interactive playground** at **http://localhost:7860**
 - Wait for WebRTC connections
 - Start analyzing video and audio streams when a client connects
+
+**🎮 Interactive Playground**
+
+When running locally, Pipecat provides a built-in web interface where you can:
+- Test your webcam and microphone in real-time
+- See live deepfake detection results
+- Monitor state transitions (CLEAR → SUSPICIOUS → ALERT)
+- View detection notifications in real-time
+- Experiment with different configurations
+
+Simply open http://localhost:7860 in your browser after starting the bot!
 
 ### Configuration
 
