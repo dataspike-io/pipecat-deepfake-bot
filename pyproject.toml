@@ -1,0 +1,20 @@
+[project]
+name = "dataspike-deepfake-detection"
+version = "0.1.0"
+description = "Dataspike Deepfake detection bot for Pipecat"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pipecat-ai[daily,webrtc,silero,runner]>=0.0.91",
+  "pipecatcloud>=0.2.7",
+  "opencv-python-headless",
+  "pipecat-ai-small-webrtc-prebuilt",
+  "python-dotenv",
+  "protobuf>=3.20.0",
+  "betterproto==2.0.0b6",
+]
+
+[dependency-groups]
+dev = [
+  "ruff",
+]
